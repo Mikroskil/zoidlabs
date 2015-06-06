@@ -6,3 +6,14 @@ Dan pada akhirnya untuk mengisi kekosongan itu tim pengembang dari HTML mengelua
 
 HTML6 adalah versi ke-6 dari HTML dengan namespace yang memiliki struktur seperti XML. Namespace XML akan membantu anda menggunakan tag yang sama tanpa bertentangan/berbenturan atau bisa dibilang tanpa konflik dengan tag lain. Misalnya salah satu yang digunakan dalam DOCTYPE XHTML:
 (xmlns:xhtml="http://www.w3.org/1999/xhtml")
+
+HTML6 APIs
+1. <html:html>
+2. <html:head>
+3. <html:title>
+4. <html:meta>
+5. <html:link>
+6. <html:body>
+7. <html:a>
+8. <html:button>
+9. <html:media>
