@@ -22,4 +22,13 @@ HTML6 APIs
 7. <html:a>
 8. <html:button>
 9. <html:media>
+
+example : head
+<html:head> </html:head>
+
+example : title
+<html:title> </html:title>
+
+example : meta
+<html:meta type="" value="">
 >>>>>>> 8b4e4c582bdd7f46570e13e0b4979d0e6aed132c
