@@ -1,0 +1,11 @@
+
+Titik HTML6 yang ditulis dalam HTML adalah bahwa hal itu akan kompatibel. Jika copy dan paste HTML6 ke dalam browser tidak akan melihat tag HTML. Bahkan tho <html: a> Foo </ html: a> tidak ada itu tidak akan melanggar apa-apa. Anda akan melihat Foo pada halaman. Namun, dalam contoh Anda, Anda akan benar-benar melihat Sebuah teks: foo.
+contoh:
+<html: a> Hi </ html: a>
+Jauh lebih mudah untuk membaca dan cara yang lebih baik untuk menulis.
+
+Kegunaan:
+<html: link> untuk hyperlink ke halaman lain
+<html: anchor> untuk anchor (tapi mungkin itu terlalu lama, anch atau bisa cukup)
+<html: using> untuk script dan style sheet
+<html: alter> alternatif seperti RSS atau Atom feed
