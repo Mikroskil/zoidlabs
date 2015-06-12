@@ -39,20 +39,21 @@
 		<div class="reveal">
 
 			<div class="slides">
-				<section>
+				<section data-background="#4D86D1">
 					<img src="img/11.jpg" style="width: 250px;"/>
-					<h2>Pengenalan Teknologi Baru HTML6</h2>
+					<h2 style="color:white">Pengenalan Teknologi Baru HTML 6</h2>
 				</section>
 
 				<section data-background="#4D86D1" class="font-white">
 					<section>
-				        <h2>Introduction HTML6</h2>
+				        <h2>Introduction HTML 6</h2>
+				        <p align="justify" >HTML6 adalah HTML konseptual dengan XML seperti ruang nama. Jika Anda tidak tahu XML, atau tidak tahu apa ruang nama XML yang mereka pada dasarnya cara untuk memungkinkan Anda untuk menggunakan tag yang sama tanpa itu bertentangan dengan tag yang berbeda.</p>
 					</section>
 				</section>
 
-				<section data-background="#4D86D1" class="font-white">
+				<!--<section data-background="#4D86D1" class="font-white">
 					<h2>The Concept</h2>
-				</section>
+				</section>-->
 
 				<section data-background="#4D86D1" class="font-white">
 					<section>
@@ -70,14 +71,36 @@
 					</section>
 				</section>
 				<section data-background="#4D86D1" class="font-white">
+					<h2>For HTML </h2>
+					<pre><code style="word-wrap: break-word;">&lt;html:html&gt;
+	<!--rest of HTML would go here -->
+&lt;/html:html&gt;</code></pre>
+				</section>
+
+				<section data-background="#4D86D1" class="font-white">
 					<h2>For HTML Head</h2>
-					<pre><code style="word-wrap: break-word;">&lt;html:head&gt;
-
+					<pre><code style="word-wrap: break-word;">&lt;html:html&gt;
+   &lt;html:head&gt;
+   	  <!--Head content here, like the <html:title> tag -->
+   &lt;/html:head&gt;
+&lt;/html:html&gt;</code></pre>
+				</section>
+				<section data-background="#4D86D1" class="font-white">
+					<h2>For HTML Title</h2>
+					<pre><code style="word-wrap: break-word;">&lt;html:html&gt;
+   &lt;html:head&gt;
+	&lt;html:title&gt;<!--Title Here-->&lt;/html:title&gt;
+   &lt;/html:head&gt;
+&lt;/html:html&gt;</code></pre>
+				</section>
+				<section data-background="#4D86D1" class="font-white">
+					<h2>For HTML Link</h2>
+					<pre><code style="word-wrap: break-word;">&lt;html:html&gt;
+   &lt;html:head&gt;
 	&lt;html:title&gt;Title Here&lt;/html:title&gt;
-	&lt;html:meta type="description" value="description here"&gt;
 	&lt;html:link src="style.css" type="text/css"&gt;
-
-&lt;/html:head&gt;</code></pre>
+   &lt;/html:head&gt;
+&lt;/html:html&gt;</code></pre>
 				</section>
 
 				<section data-background="#4D86D1" class="font-white">
@@ -85,17 +108,12 @@
 				</section>
 
 				<!-- Example of nested vertical slides -->
-				<section>
+				<!--<section><section data-background="#4D86D1">
 					<section>
 						<h2>Pendahuluan</h2>
-						<p>HTML6 adalah HTML konseptual dengan XML seperti ruang nama. Jika Anda tidak tahu XML, atau tidak tahu apa ruang nama XML yang mereka pada dasarnya cara untuk memungkinkan Anda untuk menggunakan tag yang sama tanpa itu bertentangan dengan tag yang berbeda.</p>
-						
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+						<p align="justify"  style="color:white">HTML6 adalah HTML konseptual dengan XML seperti ruang nama. Jika Anda tidak tahu XML, atau tidak tahu apa ruang nama XML yang mereka pada dasarnya cara untuk memungkinkan Anda untuk menggunakan tag yang sama tanpa itu bertentangan dengan tag yang berbeda.</p>
 					</section>
-					<section>
+					
 						<h2></h2>
 						<h2>Penggunaan &#60html:html&#62</h2>
 						<img src="img/html.png" style="width: 750px; height=350px "/>
@@ -130,19 +148,33 @@
 						
 					</section>
 					<section>
+						<h2></h2>
+						<h2>Penggunaan &#60html:a&#62</h2>
+						<p align="justify" style="color:white"> Tag ini merupakan salah satu anchor pada halaman, atau link ke halaman web lain. Setara dengan saat ini tag &#60a&#62.Tag &#60html:a&#62 mengambil satu atribut yang diperlukan yang merupakan href yang mengarahkan jangkar atau link ke mana harus pergi. Untuk anchor Anda akan menggunakan sintaks #id-of-elemen-to-link-untuk dan untuk link ke halaman web lain Anda akan cukup memasukkan link seperti http://google.com. 
+						</P>
+						<p align="justify"> Atribut tersedia untuk &#60a&#62 tag adalah: </p>
+						<ul>
+							<li> href </li>
+							<li> nama </li>
+							<li> Target (bisa kosong, parent, atas atau dirinya) </li>
+						</ul>
+						
+					</section>
+					<section>
 						<h2>Basement Level 2</h2>
 						<p>That's it, time to go back up.</p>
 						<br>
 						<a href="#/2">
 							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
 						</a>
-					</section>
+					</section>-->
 				</section>
 
 				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
+					<h2>HTML Forms API</h2>
+					<p align="justify">
+						 Bentuk HTML terpisah dari HTML API untuk memungkinkan pengembangan bentuk untuk tidak harus memperlambat untuk HTML seluruh spec. Bentuk senantiasa berkembang dengan Sliders, pemetik warna, tanggal dan waktu pemetik, progress bar dan banyak lagi. Bentuk benar-benar semacam mereka sendiri "hal" dalam HTML, sehingga dalam HTML6 kita sudah rusak mereka ke API mereka sendiri.
+						
 					</p>
 				</section>
 
