@@ -9,3 +9,51 @@ Kegunaan:
 <html: anchor> untuk anchor (tapi mungkin itu terlalu lama, anch atau bisa cukup)
 <html: using> untuk script dan style sheet
 <html: alter> alternatif seperti RSS atau Atom feed
+
+10 kegunaan kelebihan dari html6:
+
+HTML6 usulan No 1: Lebih mengontrol objek video
+
+Kita mungkin tidak pernah menyelesaikan pertempuran selama codec kompresi, tapi kita bisa hidup dengan itu. Algoritma kompresi yang berbeda dapat mengambil lebih banyak pekerjaan untuk menerapkan, tetapi mereka menawarkan kompetisi. Apa yang akan menyenangkan akan lebih banyak kontrol atas bagaimana frame video yang dicat pada halaman. Versi saat mengisi sebuah persegi panjang dengan urutan frame dari video dan memberi kita kontrol atas trek teks dengan penjelasan, sub judul, dan yang lainnya. Beberapa orang pintar sudah mulai menggunakan ini untuk melakukan sinkronisasi penjelasan dengan objek DOM lainnya. Tapi bagaimana kait callback yang lebih baik dan mekanisme sinkronisasi? Bagaimana kemampuan untuk mencampur DOM dengan video, misalnya?
+
+HTML6 usulan No 2: Browser-ukuran dari citra
+
+Berapa banyak piksel yang foto harus terlihat baik di layar? Ini bervariasi dari ponsel ke laptop ke desktop. Bahkan ukuran jendela mengubah resolusi minimum. Tapi standar HTML <img> tag mendapatkan hanya satu SRC, yang menunjuk ke salah satu file gambar yang mungkin memiliki terlalu banyak atau terlalu sedikit piksel untuk render efisien. Jika memiliki terlalu banyak, browser harus downgrade gambar untuk menampilkannya, membuang semua yang bandwidth jaringan dan waktu. Jika memiliki terlalu sedikit, terlihat cruddy. Sebuah protokol HTML yang lebih baik bisa menyarankan lebar yang diinginkan atau tinggi untuk gambar, dan server dapat memberikan resolusi yang optimal.
+
+HTML6 usulan No 3: bahasa Pluggable
+
+Jika Anda suka JavaScript, browser besar; jika Anda tidak, sulit. Browser HTML standar berbicara JavaScript dan hanya JavaScript, tapi untuk beberapa alasan kita seharusnya untuk menentukan bahwa jenis bahasa adalah text / javascript dengan setiap tag script. Sejak HTML4, tidak ada default.
+
+HTML6 usulan No 4: preprosesor Pluggable
+
+Solusi lain untuk meningkatkan pilihan pengembang luar JavaScript adalah untuk merangkul alat yang mengkonversi bahasa ke dalam JavaScript. Sejumlah pengembang sudah menggunakan preprosesor untuk menerjemahkan "bahasa" seperti CoffeeScript ke JavaScript. Tentu saja, di bawah tenda, CoffeeScript tidak jauh berbeda dari JavaScript; itu lebih merupakan alt-sintaks dari bahasa yang berbeda.
+
+Tidak ada alasan mengapa semua bahasa Turing-lengkap tidak dapat diterjemahkan. Daftar Jeremy Ashkenas 'bahasa yang dapat dikompilasi ke dalam JavaScript adalah mengejutkan luas. Cadel, Python, Ruby, Erlang, Scala - daftar berjalan dan terus.
+
+Usulan tersebut akan datang pada biaya. Ketika salah satu bahasa lintas dikompilasi ke dalam JavaScript, biasanya minified pada saat yang sama, memproduksi versi yang lebih kecil dan lebih mudah disalurkan melalui Internet. Melakukan hal ini sekali pada penyebaran jauh lebih efisien daripada melakukannya setiap kali di peramban semua orang.
+
+HTML6 usulan No 5: Dijamin perpustakaan
+
+Dunia pemrograman JavaScript telah diubah oleh jQuery, antara lain, semua-tapi-standar perpustakaan. Namun hampir setiap website masih beban salinan sendiri. Jumlah energi yang terbuang pada memuat jQuery mungkin cukup untuk menerangi sebuah negara kecil, menyembuhkan kanker, atau keduanya.
+
+Beberapa situs web menggunakan versi disimpan di cache standar perpustakaan tertentu yang diselenggarakan oleh perusahaan seperti Google atau Yahoo, dan ini dapat menghemat bandwidth, tetapi standar berikutnya HTML harus melakukan lebih baik dari ini. Jika sejumlah besar desainer menyetujui perpustakaan, itu bisa didistribusikan dengan browser. Ini akan menghemat waktu lebih banyak menyegarkan versi cache dari jQuery 1.9 lagi.
+
+HTML6 usulan Nomor 6: akses Dijaga ke informasi kontak
+
+Browser sudah berbagi informasi lokasi - jika pengguna mengklik tombol kanan. Mengapa tidak lebih? Orang sering ingin menarik alamat email atau nomor telepon untuk database perangkat informasi kontak. Sekarang mereka harus memotong dan menyisipkan. Mengapa tidak membiarkan JavaScript menggali untuk menyelamatkan semua pemotongan itu dan paste? Ini akan menjadi besar untuk perangkat mobile. Antarmuka bisa menawarkan kontrol halus untuk memungkinkan orang untuk memberikan akses otomatis untuk kode yang berasal dari beberapa domain tetapi tidak yang lain.
+
+HTML6 usulan No 7: Integrasi Kamera
+
+Antara kamera Web dan beberapa kamera pada ponsel, itu jarang untuk pengguna untuk berinteraksi dengan browser yang tidak memiliki kamera dan mikrofon terhubung. W3C sudah menjajaki cara untuk menambahkan foto atau video capture untuk bentuk, dan beberapa browser mendukung versi mereka sendiri seperti webkitGetUserMedia. Sangat mudah untuk membayangkan lebih. Elemen bentuk juga bisa mengakses simpanan foto yang tersimpan di perangkat, dan perangkat bisa menawarkan kontrol yang lebih baik dari kamera dan tingkat penangkapan. Ini akan membiarkan situs bersaing dengan aplikasi khusus.
+
+HTML6 usulan No 8: otentikasi Hardened
+
+Dimungkinkan untuk menawarkan banyak di jalan otentikasi keras dan cepat mengingat betapa sulitnya untuk membangun perangkat keras dunia, tapi browser bisa menawarkan lebih dari itu tidak. Alih-alih cookies, browser bisa menawarkan untuk menandatangani token dengan tertanam kunci. Ini dapat disimpan dari perangkat dalam chip mengeras untuk mencegah orang dari penggalian kunci rahasia. Menambahkan API untuk browser akan memungkinkan website untuk meminta tanda tangan digital yang lebih baik. Ini bisa menjadi berbahaya jika terlalu banyak iman ditempatkan di dalamnya, tapi itu akan menjadi langkah dari cookie otentikasi dan sesi.
+
+HTML6 usulan No 9: penjelasan yang lebih baik
+
+Bagian komentar di dasar artikel hanya awal bagaimana kita dapat keterangan artikel, tetapi struktur standar dapat menambahkan penjelasan terkait dengan paragraf, kalimat, atau bahkan kata-kata. Sebuah versi canggih bahkan mungkin memungkinkan penjelasan gambar atau momen dalam video. Beberapa situs mulai menawarkan ini, tapi mungkin ada beberapa keuntungan dalam standardisasi API sehingga semua situs web dan browser memperlakukan penjelasan dasar dengan cara yang sama. W3C memiliki kelompok belajar daerah dan menawarkan standar dasar.
+
+HTML6 usulan No 10: Microformats Stronger
+
+Tag HTML membedakan antara berita utama, paragraf, dan mungkin footer, tapi tidak banyak lagi. Mengapa tidak membuat cara standar untuk menentukan rincian umum lainnya, seperti bagian dari sebuah alamat atau nomor telepon? Tentu, tag standar untuk menggambarkan alamat email akan membuat hidup lebih mudah bagi spammer, tapi satu set standar tag akan mempercepat crawler Web dan mesin pencari, yang akan bermanfaat bagi kita semua. W3C telah menjelajahi Microformats untuk menandai bit data selama beberapa waktu, dan beberapa menganggap mereka untuk menjadi bagian dari HTML5, meskipun mereka tidak. Kita dapat menggunakan markup yang lebih komprehensif untuk lokasi, waktu, tanggal, barang untuk dijual, bibliografi, dan segala bentuk data standar.
