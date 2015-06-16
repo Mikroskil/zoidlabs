@@ -1,0 +1,15 @@
+SECTION. TAGS TYPE:
+
+Dalam HTML6, seperti di semua versi HTML sebelumnya, ada dua jenis tag: tag tunggal dan tag ganda. Tag tunggal tidak dapat memiliki konten teks, mereka hanya memiliki atribut. Ini adalah contoh dari tag tunggal (kedua elemen ditafsirkan dengan cara yang sama):
+
+<html:meta type="author" content="m93a">
+<html:meta type="author" content="m93a" />
+
+Berbeda dengan tag ganda, tag tunggal tidak perlu ditutup. Tag ganda biasanya memiliki beberapa konten teks sehingga mereka terbuat dari pembuka dan tag penutup. Jika tidak memiliki konten teks, dapat disingkat menjadi single varian menutup diri. contoh:
+
+<html:link href="./a.html">Text content</html:link>
+
+<!-- This shortand... -->
+<foo class="bar" />
+<!-- ...means in fact this: -->
+<foo class="bar"></foo>
