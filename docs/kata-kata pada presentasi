@@ -1,0 +1,32 @@
+#SLIDE 1
+
+Berikut adalah presentasi yang akan kami bawakan, yaitu tentang perkenalan teknologi baru HTML6. Rasanya masih belum lama
+kita mengenal HTML5 bahkan kita belum mendalami seluk beluk HTML5 tapi sudah mau muncul teknologi baru yaitu HTML6, walaupun masih belum pasti kapan akan dirilis ke publik, tapi berbagai artikel tentang HTML6 sudah mulai banyak bertebaran di internet. 
+
+# SLIDE 2
+
+Yang pertama kita akan membahas tentang HTML5 terlebih dahulu sebelum kita mulai membahas tentang HTML6. HTML5 merupakan suatu terobosan besar bagi semua pengembang web karena munculnya tag-tag yang sangat-sangat fungsional dan fungsi-fungsi yang sangat membantu misalnya seperti drag n drop, localstorage, geolocation, responsif dan banyak lainnya. Tapi walaupun begitu banyak kelebihan yang ditawarkan oleh HTML5 tetap saja masih terlalu banyak kekosongan dan HTML5 bukanlah sesuatu markup yang benar-benar semantik. Oleh karena itu tim pengembang HTML mengeluarkan teknologi baru mereka yaitu HTML6 yang memiliki desain markup yang di-desain se-semantik mungkin.
+
+# SLIDE 3
+
+Pada HTML6 ini banyak sekali kelebihan-kelebihan yang diberikan ketimbang HTML5, yaitu:
+
+- Lebih dapat mengontrol objek video
+Lebih banyaknya kontrol untuk frame video pada halaman, pengembang diberikan kontrol atas track teks, sub judul, dan lainnya.
+
+- Perbaikan pada tampilan citra responsif
+Terkadang kita harus menyesuaikan seberapa besar pixel dari suatu gambar agar terlihat bagus di layar, tentu saja di layar yang bervariasi ponsel atau desktop. Maka pada HTML6 gambar yang kita pilih akan secara otomatis menyesuaikan tinggi lebar untuk gambar dan server dapat memberikan resolusi yang optimal.
+
+- Libraries yang lebih terjamin
+Dunia pemrograman javascript telah dirubah oleh hadirnya Jquery. Dan para pengembang mulai memakai banyak librari Jquery, namun untuk menghemat pemakaian bandwith banyak para pengembang yang tidak menyimpan salinan jquery secara langsung melainkan menyimpannya pada suatu host tertentu. Pada HTML6 ini kemungkinan akan memberikan librari yang didistribusikan melalui browser sehinggal ini dapat lebih menghemat waktu dan juga bandwith.
+
+- Terintegrasi dengan kamera
+Untuk pemakaian dari webcam ataupun kamera ponsel, jarang sekali pengguna melakukan interaksi semacam itu melalui browser. Nantinya fitur untuk mengintegrasikan kamera melalui tag html akan diberikan sehingga dapat memudahkan pengembang.
+
+
+sebenarnya masih banyak kelebihan-kelebihan yang diberikan oleh HTML6, tapi karena informasi masih simpang siur hanya ini yang bisa kami berikan.
+
+# SLIDE 4 - SLIDE seterusnya
+
+buat kata-kata sendiri
+
